@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
-<body>
+<body class="body edit">
     <h1>login as existing user</h1>
     <div>
         <a href="./index.html">Home</a>
         <a href="./register.html">register</a>
     </div>
+    <form class="form-edit" id="loginForm">
+        <input type="text" name="email" id="email" placeholder="Enter your email"><br>
+        <input type="text" name="password" id="password" placeholder="Enter your password"><br>
+        <button>Submit</button>
+    </form>
+    <h1 id="loginMessage1"></h1>
 </body>
+<script src="./scripts/login.js">login</script>
 </html>

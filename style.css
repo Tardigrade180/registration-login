@@ -1,0 +1,23 @@
+/* .hero-background {
+    background-color: black;
+    height: 90vh;
+    width: 50vw;
+    margin: 30px 20rem;
+    color: white;
+    
+}
+
+/* .register-text {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .register-edit {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */ */
+
+.body-edit{
+    justify-content: center;
+}
